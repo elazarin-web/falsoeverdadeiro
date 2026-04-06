@@ -1,9 +1,11 @@
 // tipo de dados
 // boleanos
 
-// conversooes implicitas
+ // conversoes implicitas
 
-const numero = 456;
+ const numero = 456;
 const numeroString = "456";
 
-console.log(numero === numeroString)
+//Number()
+//string()
+console.log(numero + Number(numeroString));                                                                                                             
